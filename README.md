@@ -1,35 +1,54 @@
 # UCI Heart Disease Statistical Analysis
 
 ## Project Overview
-This project performs statistical analysis and exploratory data analysis (EDA) on the UCI Heart Disease dataset.
 
-The objective is to understand relationships between various clinical attributes and the presence of heart disease.
+This project analyzes the UCI Heart Disease Dataset and compares machine learning models for heart disease prediction.
 
 ## Dataset Source
 
 UCI Machine Learning Repository:
 https://archive.ics.uci.edu/dataset/45/heart+disease
 
-Dataset Name:
-Heart Disease Dataset
-
-## Tools Used
+## Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- Scikit-learn
 - Jupyter Notebook
+
+## Models Implemented
+
+### Logistic Regression
+- Used as a baseline classification model.
+- Evaluated using accuracy and classification metrics.
+
+### Random Forest Classifier
+- Ensemble learning approach using multiple decision trees.
+- Compared against Logistic Regression.
+
+## Model Comparison
+
+The project compares:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+
+to determine which model performs better on the Heart Disease Dataset.
 
 ## Analysis Performed
 
 - Data Cleaning
-- Missing Value Handling
-- Descriptive Statistics
-- Correlation Analysis
-- Data Visualization
-- Insights Generation
+- Exploratory Data Analysis (EDA)
+- Feature Analysis
+- Model Training
+- Model Evaluation
+- Performance Comparison
 
 ## Files
 
